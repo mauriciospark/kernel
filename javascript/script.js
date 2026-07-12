@@ -13,6 +13,23 @@
 let booksData = [];
 let filteredBooks = [];
 
+// Buscar número de estrelas do GitHub
+async function fetchGitHubStars() {
+    try {
+        const response = await fetch('https://api.github.com/repos/mauriciospark/kernel');
+        if (response.ok) {
+            const data = await response.json();
+            const starsCount = data.stargazers_count;
+            document.getElementById('starsCount').textContent = `★ ${starsCount} star`;
+        } else {
+            document.getElementById('starsCount').textContent = '★ star';
+        }
+    } catch (error) {
+        console.error('Erro ao buscar estrelas do GitHub:', error);
+        document.getElementById('starsCount').textContent = '★ star';
+    }
+}
+
 // Extrair metadados do nome do arquivo
 function extractMetadataFromFilename(filename) {
     // Remove extensão
@@ -253,6 +270,7 @@ function filterBooks() {
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadBooks();
+    fetchGitHubStars();
 
     // Search input
     document.getElementById('searchInput').addEventListener('input', filterBooks);

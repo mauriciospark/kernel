@@ -32,11 +32,54 @@ header {
     z-index: 100;
 }
 
-header h1 {
-    text-align: center;
-    color: #667eea;
+.header-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     margin-bottom: 1.5rem;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+header h1 {
+    color: #667eea;
     font-size: 2.5rem;
+    margin: 0;
+}
+
+.github-stars {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #667eea;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: rgba(102, 126, 234, 0.1);
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+}
+
+.github-stars:hover {
+    background: rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#starsCount {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .search-container {

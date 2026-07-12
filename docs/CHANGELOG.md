@@ -30,6 +30,8 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Licença MIT para uso livre em portfólios
 - Header de copyright em todos os arquivos do projeto
 - Configuração simplificada via arquivo config.js
+- Exibição de estrelas do GitHub no header com ícone e contador
+- Integração com GitHub API para buscar stargazers_count em tempo real
 
 ### Changed
 - Arquitetura migrada para sistema Local-First com API externa

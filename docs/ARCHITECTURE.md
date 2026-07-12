@@ -93,6 +93,8 @@ Carregar config.js
     ↓
 loadBooks() invocado
     ↓
+fetchGitHubStars() invocado (paralelo)
+    ↓
 ┌─────────────────────────────────────┐
 │ Tenta carregar books.json (opcional)│
 │ para metadados manuais              │
@@ -133,7 +135,33 @@ loadBooks() invocado
         Interface pronta
 ```
 
-### 2. Interação do Usuário
+### 2. Busca de Estrelas do GitHub
+
+```
+DOM Load
+    ↓
+fetchGitHubStars() invocado
+    ↓
+┌─────────────────────────────────────┐
+│ Faz request para GitHub API         │
+│ GET /repos/{user}/{repo}            │
+└──────────────┬──────────────────────┘
+               ↓
+        Recebe dados do repositório
+               ↓
+┌─────────────────────────────────────┐
+│ Extrai stargazers_count             │
+└──────────────┬──────────────────────┘
+               ↓
+┌─────────────────────────────────────┐
+│ Atualiza elemento #starsCount       │
+│ Formato: "★ {count} star"            │
+└──────────────┬──────────────────────┘
+               ↓
+        Estrelas exibidas no header
+```
+
+### 3. Interação do Usuário
 
 #### Busca e Filtro
 

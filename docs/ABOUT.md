@@ -35,6 +35,7 @@ Os valores da Spark Mauricio estão profundamente integrados ao Kernel:
 - **Interface Moderna:** UX limpa e intuitiva
 - **Responsividade:** Funciona perfeitamente em qualquer dispositivo
 - **Estética:** Visual profissional com gradientes e animações sutis
+- **Integração Visual:** Contador de estrelas do GitHub integrado ao header
 
 ## Público-Alvo
 
