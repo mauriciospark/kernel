@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--
+  ============================================================================
+  PROPRIETÁRIO: Mauricio Spark
+  MARCA:        Spark Mauricio
+  PROJETO:      Kernel
+  VERSÃO:       v1.0.0
+  LINHAGEM:     SPARK
+  ============================================================================
+  Documento de Planejamento de Escopo
+  COPYRIGHT: © 2026 / Mauricio Spark. Todos os direitos reservados.
+  ============================================================================
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>📚 Kernel</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar livros...">
+            <select id="genreFilter">
+                <option value="">Todos os gêneros</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="booksGrid" class="books-grid">
+            <!-- Os livros serão carregados aqui via JavaScript -->
+        </div>
+    </main>
+
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Detalhes do livro serão exibidos aqui -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="javascript/script.js"></script>
+<script src="javascript/config.js"></script>
+
+</html>

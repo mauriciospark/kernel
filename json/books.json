@@ -1,0 +1,504 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Codebright",
+      "author": "Klaus Iglberger",
+      "year": "N/A",
+      "genre": "Programação",
+      "description": "Arquivo: Codebright_ptbr.pdf",
+      "cover": null,
+      "file": "livros/Codebright_ptbr.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Desenvolvimento Web com ASP.NET",
+      "author": "K19",
+      "year": "N/A",
+      "genre": "Desenvolvimento Web",
+      "description": "Arquivo: K19_k32_desenvolvimento_web_com_asp_net.pdf",
+      "cover": null,
+      "file": "livros/K19_k32_desenvolvimento_web_com_asp_net.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Técnicas de Invasão",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Segurança",
+      "description": "Arquivo: Livro-Tecnicas-De-Invasao.pdf",
+      "cover": null,
+      "file": "livros/Livro-Tecnicas-De-Invasao.pdf"
+    },
+    {
+      "id": 4,
+      "title": "Como Precificar e Fazer o Orçamento",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "Arquivo: live_019_comoprecificar_e_fazer_o_orcamento_para_os_seus_clientes.pdf",
+      "cover": null,
+      "file": "livros/live_019_comoprecificar_e_fazer_o_orcamento_para_os_seus_clientes.pdf"
+    },
+    {
+      "id": 5,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 6,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 7,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 8,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 9,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 10,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 11,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 12,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 13,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 14,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 15,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 16,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 17,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 18,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 19,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 20,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 21,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 22,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 23,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 24,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 25,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 26,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 27,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 28,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 29,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 30,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 31,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 32,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 33,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 34,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 35,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 36,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 37,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 38,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 39,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 40,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 41,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 42,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 43,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 44,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 45,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 46,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 47,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 48,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 49,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    },
+    {
+      "id": 50,
+      "title": "",
+      "author": "N/A",
+      "year": "N/A",
+      "genre": "Geral",
+      "description": "",
+      "cover": null,
+      "file": "livros/"
+    }
+  ]
+}
